@@ -1,0 +1,53 @@
+﻿WBA for Assignment 2 - FIT 2099                                        Team: Lab 14 Team 3
+
+
+Members: Jun Heng Tan ( 3280 5217 ), Dayan Perera ( 3224 2026 ), Kuan Yi Xuan ( 3202 3227 ) 
+
+
+REQ 1:          Code and JavaDoc--> 
+                      Managed by Kuan Yi Xuan ( 3202 3227 ).
+        -         Will be reviewed by Dayan Perera ( 3224 2026 ) & Jun Heng Tan ( 3280 5217 ) 
+        
+REQ 2:          Code and JavaDoc --> 
+                      Managed by Jun Heng Tan ( 3280 5217 ).
+        -         Will be reviewed by Dayan Perera ( 3224 2026 ) & Kuan Yi Xuan ( 3202 3227 ) 
+
+
+REQ 3:          Code and JavaDoc --> 
+                      Managed by Jun Heng Tan ( 3280 5217 ).
+        -         Will be reviewed by Dayan Perera ( 3224 2026 ) & Kuan Yi Xuan ( 3202 3227 ) 
+
+
+REQ 4:          Code and JavaDoc --> 
+                      Managed by Dayan Perera ( 3224 2026 ).
+        -         Will be reviewed by Jun Heng Tan ( 3280 5217 ) & Kuan Yi Xuan ( 3202 3227 ) 
+
+
+REQ 5:          Code and JavaDoc --> 
+                      Managed by Dayan Perera ( 3224 2026 ).
+        -         Will be reviewed by Jun Heng Tan ( 3280 5217 ) & Kuan Yi Xuan ( 3202 3227 ) 
+
+
+REQ 6:          Code and JavaDoc --> 
+                      Managed by Kuan Yi Xuan ( 3202 3227 ).
+        -         Will be reviewed by Jun Heng Tan ( 3280 5217 ) & Dayan Perera ( 3224 2026 ) 
+
+
+REQ 7:          Code and JavaDoc --> 
+                      Managed by Jun Heng Tan ( 3280 5217 ).
+        -         Will be reviewed by Kuan Yi Xuan ( 3202 3227 ) & Dayan Perera ( 3224 2026 ) 
+
+
+
+
+
+
+
+
+Jun Heng Tan: I accept this WBA
+
+
+Dayan Perera: I accept this WBA
+
+
+Kuan Yi Xuan: I accept this WBA

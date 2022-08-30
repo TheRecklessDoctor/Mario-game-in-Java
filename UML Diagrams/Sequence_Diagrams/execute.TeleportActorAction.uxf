@@ -1,0 +1,68 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>Relation</id><coordinates><x>50</x><y>75</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+execute(actor, map)</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>250</x><y>5</y><w>140</w><h>30</h></coordinates><panel_attributes>_:TeleportActorAction_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>25</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>310</x><y>75</y><w>20</w><h>920</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>680</x><y>5</y><w>150</w><h>30</h></coordinates><panel_attributes>_currentMap:GameMap_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>840</x><y>5</y><w>210</w><h>30</h></coordinates><panel_attributes>_gameMaps:ArrayList&lt;GameMap&gt;_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>185</y><w>620</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+get(0)</panel_attributes><additional_attributes>600;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>25</y><w>30</w><h>190</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>920</x><y>195</y><w>20</w><h>110</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>215</y><w>620</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+mainMap: GameMap</panel_attributes><additional_attributes>10;20;600;20</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>25</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>750</x><y>85</y><w>20</w><h>60</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>85</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+locationOf(actor)</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>115</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+actorLocation: Locaition</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>245</y><w>620</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+get(1)</panel_attributes><additional_attributes>600;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>275</y><w>620</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+lavaMap: GameMap</panel_attributes><additional_attributes>10;20;600;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1080</x><y>5</y><w>280</w><h>30</h></coordinates><panel_attributes>_previousLocations:ArrayList&lt;Location&gt;_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>40</x><y>315</y><w>1310</w><h>640</h></coordinates><panel_attributes>alt
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>330</x><y>315</y><w>280</w><h>30</h></coordinates><panel_attributes>[currentMap == mainMap ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1190</x><y>25</y><w>30</w><h>330</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;310</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1190</x><y>335</y><w>20</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>335</y><w>890</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+add(actorLocation)</panel_attributes><additional_attributes>870;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>270</x><y>475</y><w>980</w><h>100</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>295</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>920</x><y>395</y><w>20</w><h>60</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>385</y><w>620</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+get(1).at(0,0).containsAnActor()</panel_attributes><additional_attributes>600;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>415</y><w>620</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+containsActor: Boolean</panel_attributes><additional_attributes>10;20;600;20</additional_attributes></element><element><id>Text</id><coordinates><x>330</x><y>475</y><w>280</w><h>30</h></coordinates><panel_attributes>[containsActor ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>445</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>920</x><y>495</y><w>20</w><h>60</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>505</y><w>620</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+get(1).removeActor(get(1).at(0,0).getActor())</panel_attributes><additional_attributes>600;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>135</y><w>30</w><h>480</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;460</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>750</x><y>595</y><w>20</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>595</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+moveActor(actor, gameMaps.get(1).at(0,0))</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>50</x><y>615</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: actor + " teleported to Lava Zone"/</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>Text</id><coordinates><x>330</x><y>665</y><w>280</w><h>30</h></coordinates><panel_attributes>[ else ]
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1190</x><y>365</y><w>30</w><h>330</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;310</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1190</x><y>665</y><w>20</w><h>140</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>675</y><w>890</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+get(previousLocations.size() - 1).containsAnActor()</panel_attributes><additional_attributes>870;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>705</y><w>1050</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+containsActor: Boolean</panel_attributes><additional_attributes>10;20;1030;20</additional_attributes></element><element><id>Text</id><coordinates><x>330</x><y>745</y><w>280</w><h>30</h></coordinates><panel_attributes>[containsActor ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>270</x><y>745</y><w>990</w><h>100</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>765</y><w>890</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+get(previousLocations.size() - 1).map().removeActor(previousLocations.get(previousLocations.size() - 1).getActor())</panel_attributes><additional_attributes>870;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>625</y><w>30</w><h>280</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;260</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>885</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+moveActor(actor,previousLocations.get(previousLocations.size() - 1))</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>750</x><y>885</y><w>20</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>40</x><y>905</y><w>290</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: actor + " teleported back to Main Map"/</panel_attributes><additional_attributes>10;20;270;20</additional_attributes></element></diagram>

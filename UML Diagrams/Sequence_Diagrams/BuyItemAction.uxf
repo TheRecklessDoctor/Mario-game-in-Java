@@ -1,0 +1,27 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>300</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>BuyItemAction</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>Actor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1530</x><y>10</y><w>100</w><h>20</h></coordinates><panel_attributes>SimpleClass</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>880</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>Item</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>90</y><w>190</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+execute(actor,map)
+</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>20</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>360</x><y>70</y><w>20</w><h>870</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>20</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>20</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>200</x><y>210</y><w>1170</w><h>250</h></coordinates><panel_attributes>alt
+--
+
+
+
+-.
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>660</x><y>80</y><w>20</w><h>870</h></coordinates><panel_attributes>alt 
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>110</y><w>310</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+actors.getWallet()</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>150</y><w>300</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+wallet:int</panel_attributes><additional_attributes>10;20;280;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>210</y><w>140</w><h>30</h></coordinates><panel_attributes>[(wallet &gt; priceOfItem)]
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>250</y><w>310</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+actor.setWallet(wallet-priceOfItem)</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>290</y><w>100</w><h>30</h></coordinates><panel_attributes>else</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>340</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+message: You dont have enough coins</panel_attributes><additional_attributes>40;20;180;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>200</x><y>510</y><w>1180</w><h>240</h></coordinates><panel_attributes>alt
+--
+
+
+
+
+
+
+-.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>390</x><y>520</y><w>220</w><h>30</h></coordinates><panel_attributes>[(itemToBuy.instanceOf(WeaponItem))]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>380</x><y>630</y><w>100</w><h>30</h></coordinates><panel_attributes>else</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>570</y><w>310</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+itemToBuy.togglePortability() </panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>780</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+actor.addItemToInventory(itemToBuy)</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>840</y><w>260</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+messageDescription(actor)</panel_attributes><additional_attributes>10;60;100;60;100;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>820</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>900</y><w>330</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;.
+actor + “buys” +  itemToBuy + “($” + priceOfItem + “)”:String</panel_attributes><additional_attributes>80;20;240;20</additional_attributes></element></diagram>

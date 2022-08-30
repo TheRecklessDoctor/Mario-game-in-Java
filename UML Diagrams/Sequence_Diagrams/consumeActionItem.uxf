@@ -1,0 +1,24 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text>capability:Enum</help_text><element><id>UMLGeneric</id><coordinates><x>150</x><y>39</y><w>130</w><h>30</h></coordinates><panel_attributes>:consumeItemAction</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>510</x><y>39</y><w>150</w><h>30</h></coordinates><panel_attributes>:Actor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>790</x><y>39</y><w>100</w><h>30</h></coordinates><panel_attributes>:Item</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>840</x><y>59</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>59</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>59</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>200</x><y>109</y><w>20</w><h>760</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>570</x><y>109</y><w>20</w><h>550</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>69</y><w>200</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+execute(actor,map)</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>339</y><w>380</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+actor.addCapability(capability)</panel_attributes><additional_attributes>360;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1100</x><y>39</y><w>100</w><h>30</h></coordinates><panel_attributes>:GameMap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1140</x><y>59</y><w>30</w><h>800</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;780</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>30</x><y>259</y><w>1190</w><h>270</h></coordinates><panel_attributes>alt
+--
+
+
+
+
+
+
+-.
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>260</y><w>160</w><h>30</h></coordinates><panel_attributes>[(increaseMaxHP == True)]
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>320</y><w>380</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+actor.increaseMaxHp(hpAmount)</panel_attributes><additional_attributes>360;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>390</y><w>100</w><h>30</h></coordinates><panel_attributes>else
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>450</y><w>380</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+actor.heal(hpAmount)</panel_attributes><additional_attributes>360;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>10</x><y>600</y><w>200</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+message:Item consumed</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>570</y><w>390</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+actor.removeItemFromInventory(item)</panel_attributes><additional_attributes>370;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>840</x><y>100</y><w>20</w><h>560</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>130</y><w>650</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Item.getCapability()</panel_attributes><additional_attributes>630;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>190</y><w>660</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+capability: Enum</panel_attributes><additional_attributes>10;20;640;20</additional_attributes></element></diagram>

@@ -1,0 +1,41 @@
+WBA for Assignment 1 - FIT 2099					Team: Lab 14 Team 3
+
+Members: Jun Heng Tan ( 3280 5217 ), Dayan Perera ( 3224 2026 ), Kuan Yi Xuan ( 3202 3227 ) 
+
+REQ 1: 	Class diagram, appropriate Sequence diagrams and design rationale --> Managed by Jun Heng Tan ( 3280 5217 ).
+	- Will be reviewed by Dayan Perera ( 3224 2026 ) & Kuan Yi Xuan ( 3202 3227 ) 
+	
+REQ 2: 	Class diagram, appropriate Sequence diagrams and design rationale --> Managed by Jun Heng Tan ( 3280 5217 ).
+	- Will be reviewed by Dayan Perera ( 3224 2026 ) & Kuan Yi Xuan ( 3202 3227 ) 
+
+REQ 3: 	Class diagram, appropriate Sequence diagrams and design rationale --> Managed by Jun Heng Tan ( 3280 5217 ).
+	- Will be reviewed by Dayan Perera ( 3224 2026 ) & Kuan Yi Xuan ( 3202 3227 ) 
+
+REQ 4: 	Class diagram, appropriate Sequence diagrams and design rationale --> Managed by Dayan Perera ( 3224 2026 ).
+	- Will be reviewed by Jun Heng Tan ( 3280 5217 ) & Kuan Yi Xuan ( 3202 3227 ) 
+
+REQ 5: 	Class diagram, appropriate Sequence diagrams and design rationale --> Managed by Dayan Perera ( 3224 2026 ).
+	- Will be reviewed by Jun Heng Tan ( 3280 5217 ) & Kuan Yi Xuan ( 3202 3227 ) 
+
+REQ 6: 	Class diagram, appropriate Sequence diagrams and design rationale --> Managed by Kuan Yi Xuan ( 3202 3227 ).
+	- Will be reviewed by Jun Heng Tan ( 3280 5217 ) & Dayan Perera ( 3224 2026 ) 
+
+REQ 7: 	Class diagram, appropriate Sequence diagrams and design rationale --> Managed by Kuan Yi Xuan ( 3202 3227 ).
+	- Will be reviewed by Jun Heng Tan ( 3280 5217 ) & Dayan Perera ( 3224 2026 ) 
+
+
+Jun Heng Tan Sequence Diagrams: execute.MoveActorAction,execute.JumpActorAction,AttackBehaviour.getAction,execute.AttackAction, Koopa.playTurn, Player.playTurn
+
+Dayan Perera Sequence Diagrams: execute.BuyItemAction,execute.ConsumeItemAction
+
+Kuan Yi Xuan Sequence Diagrams:execute.speakAction,toad.allowableActions
+
+Jun Heng Tan: I accept this WBA
+
+Dayan Perera: I accept this WBA
+
+Kuan Yi Xuan: I accept this WBA
+
+
+
+

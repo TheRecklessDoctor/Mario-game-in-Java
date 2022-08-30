@@ -1,0 +1,119 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><element><id>Relation</id><coordinates><x>0</x><y>72</y><w>333</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+playTurn( actions, lastAction, map,  display)</panel_attributes><additional_attributes>350;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>315</x><y>18</y><w>27</w><h>81</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>288</x><y>0</y><w>72</w><h>27</h></coordinates><panel_attributes>_:Bowser_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>315</x><y>72</y><w>18</w><h>1602</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>225</x><y>774</y><w>1206</w><h>351</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>774</y><w>207</w><h>27</h></coordinates><panel_attributes>[ target == null ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>513</x><y>0</y><w>126</w><h>27</h></coordinates><panel_attributes>_map:GameMap_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>558</x><y>18</y><w>27</w><h>126</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>792</y><w>252</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+locationOf(this)</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>810</y><w>252</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+here: Location</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>558</x><y>783</y><w>18</w><h>54</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>693</x><y>837</y><w>18</w><h>45</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>837</y><w>387</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+getExits()</panel_attributes><additional_attributes>410;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>855</y><w>387</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+exit: Exit</panel_attributes><additional_attributes>10;20;410;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>648</x><y>0</y><w>126</w><h>27</h></coordinates><panel_attributes>_location:Location_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>693</x><y>18</y><w>27</w><h>837</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;910</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>270</x><y>891</y><w>945</w><h>216</h></coordinates><panel_attributes>loop
+
+fg=blue
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>783</x><y>0</y><w>90</w><h>27</h></coordinates><panel_attributes>_exit:Exit_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>18</y><w>27</w><h>909</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;990</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>810</x><y>900</y><w>18</w><h>54</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>891</y><w>207</w><h>27</h></coordinates><panel_attributes>[ for each exit ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>900</y><w>504</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+getDestination()</panel_attributes><additional_attributes>540;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>918</y><w>504</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+destination: Location</panel_attributes><additional_attributes>10;20;540;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>945</y><w>630</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+containsAnActor()</panel_attributes><additional_attributes>680;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>963</y><w>630</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+containsActor: boolean</panel_attributes><additional_attributes>10;20;680;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>999</y><w>630</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+target: Actor</panel_attributes><additional_attributes>10;20;680;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>936</x><y>945</y><w>18</w><h>81</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>981</y><w>630</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+getActor()</panel_attributes><additional_attributes>680;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>936</x><y>18</y><w>27</w><h>945</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;1030</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>882</x><y>0</y><w>126</w><h>27</h></coordinates><panel_attributes>_destination:Location_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>279</x><y>1035</y><w>918</w><h>54</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>1035</y><w>207</w><h>27</h></coordinates><panel_attributes>[ target instanceOf Player ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1026</x><y>0</y><w>144</w><h>27</h></coordinates><panel_attributes>_attackBehaviour:Behaviour_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1089</x><y>18</y><w>27</w><h>1143</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;1250</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1089</x><y>1143</y><w>18</w><h>36</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1134</y><w>783</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+getAction(this, map)</panel_attributes><additional_attributes>850;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1152</y><w>783</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+action: Action</panel_attributes><additional_attributes>10;20;850;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>225</x><y>1197</y><w>1206</w><h>135</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>1197</y><w>207</w><h>27</h></coordinates><panel_attributes>[action == null ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1188</x><y>1215</y><w>144</w><h>27</h></coordinates><panel_attributes>_followBehaviour:Behaviour_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1251</x><y>1233</y><w>27</w><h>54</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1251</x><y>1269</y><w>18</w><h>45</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1269</y><w>945</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+getAction(this, map)</panel_attributes><additional_attributes>1030;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1287</y><w>945</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+action: Action</panel_attributes><additional_attributes>10;20;1030;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1215</y><w>882</w><h>45</h></coordinates><panel_attributes>new FollowBehaviour(target)
+lt=&lt;.
+&lt;&lt; create &gt;&gt;</panel_attributes><additional_attributes>960;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>54</x><y>1341</y><w>1377</w><h>63</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>1341</y><w>207</w><h>27</h></coordinates><panel_attributes>[action != null ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>54</x><y>1368</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+/return: action/</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>54</x><y>1413</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+/return: new DoNothingAction()/</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1296</x><y>0</y><w>144</w><h>27</h></coordinates><panel_attributes>_behaviours:Behaviour_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1341</x><y>18</y><w>36</w><h>1503</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;20;1650</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1350</x><y>1494</y><w>18</w><h>45</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>27</x><y>1476</y><w>1440</w><h>153</h></coordinates><panel_attributes>loop
+
+fg=blue
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>1476</y><w>513</w><h>27</h></coordinates><panel_attributes>[ for each behaviour in the behaviours hashmap ] // AttackBehaviour 
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1494</y><w>1044</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+getAction(this, map)</panel_attributes><additional_attributes>1140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1512</y><w>1044</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+action: Action</panel_attributes><additional_attributes>10;20;1140;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>36</x><y>1548</y><w>1404</w><h>54</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>1548</y><w>207</w><h>27</h></coordinates><panel_attributes>[action != null ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>54</x><y>1566</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+/return: action/</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>54</x><y>1629</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+/return: new DoNothingAction()/</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>558</x><y>441</y><w>27</w><h>360</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;380</additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>108</y><w>207</w><h>27</h></coordinates><panel_attributes>[this.resetCalled &amp; !this.hasResseted]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>135</y><w>252</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+at(0,6).containsAnActor()</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>558</x><y>126</y><w>18</w><h>324</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>153</y><w>252</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+containsActor: Boolean</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>36</x><y>108</y><w>1440</w><h>549</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>189</y><w>207</w><h>18</h></coordinates><panel_attributes>[containsActor]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>198</x><y>261</y><w>1197</w><h>117</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>207</y><w>252</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+at(0, 6).getActor()</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>225</y><w>243</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+actor: Actor</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>261</y><w>207</w><h>18</h></coordinates><panel_attributes>[actor != this]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>279</y><w>252</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+removeActor(map.at(0, 6).getActor())</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>297</y><w>252</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+moveActor(this, map.at(0, 6))</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>180</x><y>189</y><w>1269</w><h>288</h></coordinates><panel_attributes>alt
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>36</x><y>738</y><w>1440</w><h>711</h></coordinates><panel_attributes>opt
+--
+
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>738</y><w>207</w><h>27</h></coordinates><panel_attributes>[(this.hasCapability(Status.PROVOKED)) ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>333</x><y>396</y><w>207</w><h>18</h></coordinates><panel_attributes>[else]
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>405</y><w>252</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+moveActor(this, map.at(0, 6))</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>486</y><w>234</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+heal(this.getMaxHp)</panel_attributes><additional_attributes>10;30;130;30;130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>522</y><w>324</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+removeCapability(Status.PROVOKED)</panel_attributes><additional_attributes>10;30;130;30;130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>54</x><y>585</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+/return: new DoNothingAction()/</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element></diagram>

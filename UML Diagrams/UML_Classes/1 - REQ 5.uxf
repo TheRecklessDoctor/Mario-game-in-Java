@@ -1,0 +1,46 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLPackage</id><coordinates><x>0</x><y>0</y><w>1420</w><h>240</h></coordinates><panel_attributes>edu.monash.fit.2099.engine
+--
+bg=#D3D3D3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>540</y><w>160</w><h>30</h></coordinates><panel_attributes>Application
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>150</y><w>100</w><h>30</h></coordinates><panel_attributes>World</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>60</y><w>100</w><h>30</h></coordinates><panel_attributes>GameMap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>150</y><w>80</w><h>410</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>60;10;10;10;10;390</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>60</y><w>110</w><h>500</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>90;10;10;10;10;480</additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>540</y><w>100</w><h>40</h></coordinates><panel_attributes>Player
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>990</x><y>130</y><w>130</w><h>260</h></coordinates><panel_attributes>lt=&lt;&lt;-
+
+fg=blue</panel_attributes><additional_attributes>10;10;110;10;110;240</additional_attributes></element><element><id>UMLClass</id><coordinates><x>900</x><y>120</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstrct&gt;&gt;
+Item</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>880</x><y>310</y><w>520</w><h>220</h></coordinates><panel_attributes>game.items
+--
+bg=#D3D3D3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>130</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+Actor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>170</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+Action</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>160</y><w>30</w><h>400</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;380</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>200</y><w>30</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;-
+fg=blue</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>180</x><y>490</y><w>310</w><h>120</h></coordinates><panel_attributes>game.actors
+--
+bg=#D3D3D3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>530</x><y>310</y><w>320</w><h>160</h></coordinates><panel_attributes>game.actions
+--
+bg=#D3D3D3</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>550</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>270</y><w>1420</w><h>420</h></coordinates><panel_attributes>game
+--
+bg=#D3D3D3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>540</y><w>160</w><h>30</h></coordinates><panel_attributes>Application
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>540</y><w>100</w><h>40</h></coordinates><panel_attributes>Player
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>380</y><w>140</w><h>30</h></coordinates><panel_attributes>BuyItemAction
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>370</y><w>100</w><h>30</h></coordinates><panel_attributes>Coin
+bg=orange
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>910</x><y>460</y><w>100</w><h>30</h></coordinates><panel_attributes>SuperMushroom
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>950</x><y>150</y><w>30</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>UMLClass</id><coordinates><x>910</x><y>370</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstrct&gt;&gt;
+SpecialItems</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>460</y><w>100</w><h>30</h></coordinates><panel_attributes>PowerStar
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>950</x><y>400</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-
+
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>950</x><y>420</y><w>180</w><h>60</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;160;20;160;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>540</y><w>100</w><h>40</h></coordinates><panel_attributes>Toad
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>140</y><w>80</w><h>420</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;10;60;400</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>400</y><w>210</w><h>260</h></coordinates><panel_attributes>lt=&lt;..
+fg=blue</panel_attributes><additional_attributes>190;10;190;240;10;240;10;180</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1180</x><y>370</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstrct&gt;&gt;
+WeaponItem</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1220</x><y>400</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-
+
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1190</x><y>460</y><w>100</w><h>30</h></coordinates><panel_attributes>Wrench</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1090</x><y>130</y><w>160</w><h>260</h></coordinates><panel_attributes>lt=-
+
+</panel_attributes><additional_attributes>10;10;140;10;140;240</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>400</y><w>670</w><h>230</h></coordinates><panel_attributes>lt=&lt;..
+fg=blue</panel_attributes><additional_attributes>650;90;650;210;10;210;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>400</y><w>490</w><h>210</h></coordinates><panel_attributes>lt=&lt;..
+fg=blue</panel_attributes><additional_attributes>470;90;470;190;10;190;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>400</y><w>310</w><h>190</h></coordinates><panel_attributes>lt=&lt;..
+fg=blue</panel_attributes><additional_attributes>290;90;290;170;10;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>130</y><w>230</w><h>270</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2= 1 .. *
+buys &gt;
+fg=blue</panel_attributes><additional_attributes>210;10;10;10;10;250</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>560</y><w>290</w><h>110</h></coordinates><panel_attributes>lt=&lt;..
+fg=blue</panel_attributes><additional_attributes>270;20;270;90;10;90;10;10</additional_attributes></element></diagram>

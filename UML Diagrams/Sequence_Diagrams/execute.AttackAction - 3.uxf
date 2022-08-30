@@ -1,0 +1,127 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>Relation</id><coordinates><x>160</x><y>70</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+execute(actor, map)</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>360</x><y>0</y><w>140</w><h>30</h></coordinates><panel_attributes>_:AttackAction_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>20</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>420</x><y>70</y><w>20</w><h>2000</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>730</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>_target:Actor_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>20</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>770</x><y>80</y><w>20</w><h>60</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>80</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+hasCapability( Status.INVINCIBLE )</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>110</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+isInvincible: boolean</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>150</y><w>230</w><h>30</h></coordinates><panel_attributes>[ (isInvincible  == true) ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>940</x><y>1660</y><w>160</w><h>30</h></coordinates><panel_attributes>_dropActions:Actions_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1210</x><y>20</y><w>30</w><h>1300</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;1280</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1170</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>_map:GameMap_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>180</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/message: " No Damage"/</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>150</x><y>150</y><w>1220</w><h>70</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>610</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>_actor:Actor_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>20</y><w>30</w><h>240</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>650</x><y>240</y><w>20</w><h>130</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>300</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+getWeapon()</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>330</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+weapon : Weapon</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>850</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>_weapon:Weapon_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>20</y><w>30</w><h>370</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;350</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>880</x><y>370</y><w>20</w><h>130</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>400</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+damage : int</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>370</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+damage()</panel_attributes><additional_attributes>450;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>430</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+verb()</panel_attributes><additional_attributes>450;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>460</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+verb : String</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>240</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+chanceToHit()</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>270</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+hitRate : int</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>150</x><y>500</y><w>310</w><h>70</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>190</x><y>500</y><w>230</w><h>30</h></coordinates><panel_attributes>[ !(rand.nextInt(100)  &lt;= hirtRate) ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>530</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/message: " Actor misses target."/</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>340</x><y>1040</y><w>1090</w><h>410</h></coordinates><panel_attributes>alt
+--
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>130</y><w>30</w><h>450</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;430</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>770</x><y>560</y><w>20</w><h>130</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>560</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+hasCapability( Status.PROVOKED )</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>590</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+isProvoked: boolean</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>380</x><y>630</y><w>990</w><h>70</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>630</y><w>280</w><h>30</h></coordinates><panel_attributes>[ !(target instanceof Player) &amp; isProvoked != true ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>660</y><w>360</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+addCapability( Status. PROVOKED ) 
+</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>360</y><w>30</w><h>380</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;360</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>650</x><y>720</y><w>20</w><h>120</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>720</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+hasCapability( Status.INVINCIBLE )</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>750</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+isInvincible : boolean</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>680</y><w>30</w><h>200</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>770</x><y>860</y><w>20</w><h>770</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>880</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+hasCapability( Status.TALL )</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>910</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+isTall : boolean</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1040</y><w>280</w><h>30</h></coordinates><panel_attributes>[ isInvincible == true ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1060</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+getMaxHp()</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1090</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+damage : int</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1130</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+hurt(damage)</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1380</y><w>280</w><h>30</h></coordinates><panel_attributes>[else]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>380</x><y>950</y><w>990</w><h>70</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>950</y><w>280</w><h>30</h></coordinates><panel_attributes>[ isTall == true ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>970</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+removeCapability(Status.TALL)</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1390</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+hurt(damage)</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>150</x><y>1480</y><w>1280</w><h>520</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1480</y><w>280</w><h>30</h></coordinates><panel_attributes>[ !target.isConscious() ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>380</x><y>1510</y><w>990</w><h>130</h></coordinates><panel_attributes>opt
+
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1510</y><w>480</w><h>30</h></coordinates><panel_attributes>[(target instanceof HideCapable ) &amp;&amp; ( ! (target.hasCapability(Status.HIDE) ) ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1530</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+getMaxHp()</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1550</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+maxHp: int</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1590</y><w>360</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+addCapability( Status. HIDE ) 
+</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1570</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+heal(maxHp)</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>1600</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/message: " Target is hiding."/</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1650</y><w>530</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;create&gt;&gt;</panel_attributes><additional_attributes>510;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>370</x><y>1700</y><w>1000</w><h>80</h></coordinates><panel_attributes>loop
+
+fg=blue
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1700</y><w>280</w><h>30</h></coordinates><panel_attributes>[ foreachtarget.Inventory() ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1010</x><y>1680</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1010</x><y>1720</y><w>20</w><h>200</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1720</y><w>600</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+add(item.getDropAction(actor))</panel_attributes><additional_attributes>580;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>370</x><y>1790</y><w>1000</w><h>110</h></coordinates><panel_attributes>loop
+
+fg=blue
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1790</y><w>280</w><h>30</h></coordinates><panel_attributes>[ for each dropActions ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1050</x><y>1800</y><w>160</w><h>30</h></coordinates><panel_attributes>_drop: Action_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1120</x><y>1820</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;30</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1120</x><y>1850</y><w>20</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1840</y><w>710</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+executre(target,map)</panel_attributes><additional_attributes>690;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1210</x><y>1920</y><w>20</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1920</y><w>800</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+removeActor(target)</panel_attributes><additional_attributes>780;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>1950</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/message: " Target is killed."/</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>780</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+hasCapability( Status.FIREATTACK )</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>810</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+hasFireAttack : boolean</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1210</y><w>280</w><h>30</h></coordinates><panel_attributes>[ hasFireAttack == true ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>2010</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: result/</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1230</y><w>360</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+hurt(damage)
+</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1260</y><w>440</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;create&gt;&gt;</panel_attributes><additional_attributes>420;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>850</x><y>1260</y><w>100</w><h>30</h></coordinates><panel_attributes>_fire : Fire_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1210</x><y>1300</y><w>20</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1210</x><y>1330</y><w>30</w><h>610</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;590</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>1300</y><w>800</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+locationOf(target).addItem(new Fire())</panel_attributes><additional_attributes>780;20;10;20</additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1340</y><w>530</w><h>60</h></coordinates><panel_attributes> //result = actor + " " + weapon.verb() + " &amp; burns " + target + " for " + damage + " damage.";
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1170</y><w>530</w><h>60</h></coordinates><panel_attributes> //result = actor + " " + weapon.verb() + " " + target + " for " + dealtDamage + " damage."</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>1420</y><w>530</w><h>60</h></coordinates><panel_attributes> //result = actor + " " + weapon.verb() + " " + target + " for " + damage + " damage."
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

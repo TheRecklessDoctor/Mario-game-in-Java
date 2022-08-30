@@ -1,0 +1,78 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>Relation</id><coordinates><x>260</x><y>150</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+getMonologue(actor)</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>520</x><y>150</y><w>20</w><h>690</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>460</x><y>80</y><w>140</w><h>30</h></coordinates><panel_attributes>_:Monologue_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>100</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>210</x><y>260</y><w>880</w><h>550</h></coordinates><panel_attributes>alt
+--
+
+
+
+-.
+
+
+
+
+
+-.
+
+
+
+
+
+-.
+
+
+
+
+
+-.
+
+
+
+
+
+-.
+
+
+
+
+
+-.
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>260</y><w>360</w><h>30</h></coordinates><panel_attributes>[ actor instanceof PrincessPeach ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>300</y><w>330</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: actor + ": \"" +  responseList.get(index) + "\""/</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>330</y><w>360</w><h>30</h></coordinates><panel_attributes>[ actor instanceof Bowser ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>350</y><w>360</w><h>30</h></coordinates><panel_attributes> // Generate random num between 3 and 6.
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>410</y><w>360</w><h>30</h></coordinates><panel_attributes>[ actor instanceof Goomba ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>430</y><w>360</w><h>30</h></coordinates><panel_attributes> // Generate random num between 7 and 9 .
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>490</y><w>360</w><h>30</h></coordinates><panel_attributes>[ actor instanceof Koopa ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>510</y><w>360</w><h>30</h></coordinates><panel_attributes> // Generate random num between 10 and 11 .
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>740</y><w>360</w><h>30</h></coordinates><panel_attributes>[ else ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>760</y><w>360</w><h>30</h></coordinates><panel_attributes> // Generate random num between 15 and 18 .
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>380</y><w>330</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: actor + ": \"" +  responseList.get(index) + "\""/</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>620</y><w>330</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: actor + ": \"" +  responseList.get(index) + "\""/</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>540</y><w>330</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: actor + ": \"" +  responseList.get(index) + "\""/</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>460</y><w>330</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: actor + ": \"" +  responseList.get(index) + "\""/</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>570</y><w>360</w><h>30</h></coordinates><panel_attributes>[ actor instanceof FlyingKoopa ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>590</y><w>360</w><h>30</h></coordinates><panel_attributes> // Generate random num between 10 and 12 .
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>700</y><w>330</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: actor + ": \"" +  responseList.get(index) + "\""/</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>670</y><w>360</w><h>30</h></coordinates><panel_attributes> // Generate random num between 13 and 14 .
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>650</y><w>360</w><h>30</h></coordinates><panel_attributes>[ actor instanceof PiranhaPlant ]
+
+fg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>770</y><w>330</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+/return: actor + ": \"" +  responseList.get(index) + "\""/</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>810</x><y>80</y><w>160</w><h>30</h></coordinates><panel_attributes>_responseList:ArrayList_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>100</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>880</x><y>150</y><w>20</w><h>90</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>170</y><w>370</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+getMonologue(actor)</panel_attributes><additional_attributes>350;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>190</y><w>370</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+responseList:get(index)</panel_attributes><additional_attributes>10;20;350;20</additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>280</y><w>360</w><h>30</h></coordinates><panel_attributes> // Generate Random num between 0 and 2.
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
